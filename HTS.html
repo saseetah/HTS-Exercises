@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hovers, Transitions & Shadows Exercise</title>
+  <style>
+    .subscribe{
+      background-color: rgb(204, 0, 0);
+      color: white;
+      height: 35px;
+      width: 105px;
+      border: none;
+      margin-right: 10px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: opacity color 0.15s;
+    }
+    .subscribe:hover{
+      opacity: 0.5;
+    }
+    .subscribe:active{
+      color: black;
+    }
+    .join{
+      background-color: white;
+      color: rgb(6, 95, 212);
+      border: 1px solid;
+      border-color: rgb(6, 95, 212);
+      padding: 8px 14px;
+      border-radius: 2px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color color 0.15s;
+    }
+    .join:hover{
+      background-color: rgb(6, 95, 212);
+      color: white;
+    }
+    .join:active{
+      color: black;
+    }
+    .tweet{
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      height: 35px;
+      width: 75px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 20px;
+      transition: box-shadow color 0.15s;
+      cursor: pointer;
+    }
+    .tweet:hover{
+      box-shadow: 10px 10px 10px black;
+    }
+    .tweet:active{
+      color: black;
+    }
+  
+  </style>
+</head>
+<body>
+<button class="subscribe">SUBSCRIBE</button>
+<button class="join">JOIN</button>
+<button class="tweet">Tweet</button>
+</body>
+</html>
+

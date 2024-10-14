@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hovers, Transitions & Shadows Challenges</title>
+  <style>
+    .uber-request-now {
+      background-color: black;
+      color: white;
+      height: 40px;
+      width: 115px;
+      cursor: pointer;
+      transition: opacity color background-color 0.5s;
+      }
+      .uber-request-now:hover{
+        opacity: 0.5;
+      }
+      .uber-request-now:active{
+        background-color: white;
+        color: black;
+      }
+  
+      .amazon-add-to-cart {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: color background-color 0.5s;
+      }
+      .amazon-add-to-cart:hover{
+        background-color:rgb(255, 164,28);
+      }
+      .amazon-add-to-cart:active{
+        color: white;
+      }
+      .github-sign-up{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        height: 40px;
+        width: 95px;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: box-shadow 0.5s;
+      }
+      .github-sign-up:hover{
+        box-shadow: 10px 10px 10px gray;
+      }
+      .get-started-bootstrap {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        width: 95px;
+        height: 40px;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+        transition: color background-color 0.5s;
+      }
+      .get-started-bootstrap:hover{
+        background-color: rgb(74, 44, 120);
+      }
+      .get-started-bootstrap:active{
+        color: black;
+      }
+      .download-bootstrap {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        width: 95px;
+        height: 40px;
+        border: 1px solid rgb(108, 117, 125);
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity color background-color 0.5s;
+      }
+      .download-bootstrap:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
+      }
+      .download-bootstrap:active{
+        opacity: 0.3;
+      }
+      .linkedin-apply-on-company-website{
+        background-color: rgb(10, 102, 194);
+        color: white;
+        width: 210px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: color background-color 0.5s;
+      }
+      .linkedin-apply-on-company-website:hover{
+        background-color: rgb(6, 76, 146);
+      }
+      .linkedin-apply-on-company-website:active{
+        color: black;
+      }
+      .save{
+        background-color: white;
+        color: rgb(10, 102, 194);
+        height: 35px;
+        width: 75px;
+        border-radius: 20px;
+        border: 1px solid rgb(10, 102, 194);
+        font-weight: bold;
+        transition: border-width background-color color 0.5s;
+      }
+      .save:hover{
+        border-width: 2px;
+      }
+      .save:active{
+        background-color: rgb(10, 102, 194);
+        color: white;
+      }
+      .amazon-link{
+        color: green;
+        text-decoration: none;
+        transition: color text-decoration 0.5s;
+      }
+      .amazon-link:active{
+        color: brown;
+      }
+      .amazon-link:hover{
+        text-decoration: underline;
+      }
+      .product-name{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20, 20;
+      }
+      .product-price{
+        color: green;
+        margin-bottom: 20px;
+      }
+      .cart-button{
+        background-color: rgb(255, 216, 20);
+        color: black;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: background-color 0.5s;
+      }
+      .cart-button:hover{
+        background-color: rgb(162, 139, 20);
+      }
+      .buy-button{
+        background-color: rgb(255, 164, 28);
+        color: black;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        transition: box-shadow 0.5s;
+      }
+      .buy-button:hover{
+        box-shadow: 10px 10px 10px grey;
+      }
+  </style>
+</head>
+<body>
+  <button class="uber-request-now">Request now</button>
+<hr>
+<button class="amazon-add-to-cart">Add to Cart</button>
+<hr>
+<button class="github-sign-up">Sign up</button>
+<hr>
+<button class="get-started-bootstrap">Get started</button>
+<button class="download-bootstrap">Download</button>
+<hr>
+<button class="linkedin-apply-on-company-website">Apply on company website</button>
+<button class="save">Save</button>
+<hr>
+<a class="amazon-link" href="https://www.amazon.com/">Back to Amazon</a>
+<p class="product-name">Nike Black Running Shoes</p>
+<p class="product-price">$39 - in stock.</p>
+<p class="free-delivery">Free delivery tomorrow</p>
+<button class="cart-button">Add to Cart</button>
+<button class="buy-button">Buy now</button>
+<hr>
+</body>
+</html>
+
